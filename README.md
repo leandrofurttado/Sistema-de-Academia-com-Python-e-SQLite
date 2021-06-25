@@ -2,6 +2,7 @@
 Com meus estudos em Python, desenvolvi um breve, simples e pequeno sistema de uma academia feito em Python, PyQT5(qtdesign) e SQLite para a DB.
 Sistema foi desenvolvido a fins didáticos, é o meu primeiro desenvolvimento usando SQLite, o proximo projeto será em MySQL.
 Deixei os arquivos .ui no repositório, caso queiram utilizalos e modificalos no QT Design diretamente. Porém no código é utilizado somente os .py.
+Todos os arquivos são importantes (de menos os .ui), o sv.txt faz parte do funcionamento do programa, portanto não delete-o.
 
 ## Tecnologias usadas:
 - Python
