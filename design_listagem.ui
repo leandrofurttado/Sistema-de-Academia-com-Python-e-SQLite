@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JanelaListagem</class>
+ <widget class="QMainWindow" name="JanelaListagem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1147</width>
+    <height>717</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CONSULTA ALUNO(A)s</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(59, 59, 59);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button_ShowAll">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>580</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);
+font: 14pt &quot;Bahnschrift SemiLight Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>MOSTRAR TODOS ALUNOS!</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lista_de_alunos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1121</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 11pt &quot;Bahnschrift SemiLight Condensed&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_NomePesquisa">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>580</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_pesquisaNome">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>610</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 127);
+font: 14pt &quot;Bahnschrift SemiLight Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PESQUISAR POR NOME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_PesquisaNumero">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>610</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 127);
+font: 12pt &quot;Bahnschrift SemiLight Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PESQUISAR POR NUMERO DE TELEFONE</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_NumeroTelefonepesquisa">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>580</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Erros">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>680</y>
+      <width>471</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Bahnschrift SemiLight Condensed&quot;;
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Vencimentos">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>580</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(188, 0, 0);
+font: 12pt &quot;Bahnschrift SemiLight Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>EM FIM DE CONTRATO/vencimento</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_AdicionarPlano">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>580</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 0);
+font: 14pt &quot;Bahnschrift SemiLight Condensed&quot;;
+background-color: rgb(85, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>EDITAR/ADICIONAR PLANO</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
